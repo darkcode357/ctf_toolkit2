@@ -1,0 +1,6 @@
+i = range(30)
+e = range(30)
+d = range(30) 
+print i
+print e 
+print d
