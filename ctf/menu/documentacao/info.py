@@ -25,7 +25,7 @@ def list():
 def use():
     print("use + nomedo do modulo")
     print("-"*20)
-    print("comanods bases")
+    print("comandos bases")
     print("\tuse decode64")
     print("\tuse encode64\n")
     print("\tuse decode32")
@@ -33,6 +33,9 @@ def use():
     print("\tuse decode16")
     print("\tuse encode16")
     print("\tuse ssh")
+    #-#
+    print("\tuse server_reverse_tcp")
+    print("\t\t-Inicia em um novo terminal um servidor tcp para shell reverso.")
 def help_base64():
     print (verde+"""
             ================doc_base64================

@@ -21,6 +21,8 @@ from menu.modulos.base.encode.encode16 import encode16
 #ssh
 from menu.modulos.os.servicos.ssh.ssh import ssh
 from menu.documentacao.info import use, list
+#reverse shel
+from menu.modulos.os.reverse_shell.chama_serv_reverse import servidor_reverse
 #documentacao do s modulos 
 from menu.documentacao.info import help_base64
 menub = verde + """
@@ -92,11 +94,14 @@ def menu():
             elif menu == "use encode32":
                 encode32()
             elif menu == "use decode16":
-                decode64()
+                decode16()
             elif menu == "use encode16":
                 encode16()
             elif menu == "use ssh":
                 ssh()
+            elif menu == "use server_reverse_tcp":
+                servidor_reverse() #Chama o módumo responsável por executar o comando 
+                                   #gnome-terminal -x bash -c "python3 menu/modulos/os/reverse_shell/servidor_tcp.py"
             elif menu =="info base64":
                 help_base64()
 
