@@ -22,6 +22,7 @@ def list():
     print("os")
     print("-"*20)
     print("ssh + ctf_shell")
+    print("reverse_shell")
 def use():
     print("use + nomedo do modulo")
     print("-"*20)
