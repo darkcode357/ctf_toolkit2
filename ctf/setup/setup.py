@@ -17,19 +17,51 @@ def install_web():
         os.makedirs("../arquivos")
     else:
         print("[pass]=[arquivos[ok]]")
-        if os.path.exists("../arquivos/wordlist") ==False:
-            os.makedirs("../arquivos/wordlist")
-        else:
-            print("[pass]=[arquivos/wordlist[ok]]")
-            if os.path.exists("../arquivos/wordlist/metasploit") == False:
-                os.makedirs("../arquivos/wordlist/metasploit")
-            else:
-                print("[pass]=[arquivos/wordlist/metasploit[ok]]")
-                if os.path.exists("../arquivos/wordlist/sec_wordlist") == False:
-                    os.makedirs("../arquivos/wordlist/sec_wordlist")
-                else:
-                    print("[pass]=[arquivos/wordlist/sec_word_list[ok]]")
+    if os.path.exists("../arquivos/wordlist") ==False:
+        print("add=> arquivos/wordlist[+]")
+        os.makedirs("../arquivos/wordlist")
+    else:
+        print("[pass]=[arquivos/wordlist[ok]]")
+    if os.path.exists("../arquivos/wordlist/metasploit") == False:
+        print("add=>/arquivos/wordlist/metasploit[+]")
+        os.makedirs("../arquivos/wordlist/metasploit")
+    else:
+        print("[pass]=[arquivos/wordlist/metasploit[ok]]")
+    if os.path.exists("../arquivos/wordlist/sec_wordlist") == False:
+        print("add=>/arquivos/wordlist/sec_wordlist[+]")
+        os.makedirs("../arquivos/wordlist/sec_wordlist")
+    else:
+        print("[pass]=[arquivos/wordlist/sec_word_list[ok]]")
 
+
+    print("inicinado verificacao de diretorios para  o donwloads dos arquivos....[+]")
+
+    if os.path.isdir("../arquivos") == True:
+        print("check 1-de-4[ok]")
+    else:
+        print("erro[criacao de diretorios]")
+        exit()
+
+    if os.path.isdir("../arquivos") == True:
+        print("check 2-de-5[ok]")
+    else:
+        print("erro[criacao de diretorios]")
+        exit()
+    if os.path.isdir("../arquivos/wordlist") == True:
+        print("check 3-de-5[ok]")
+    else:
+        print("erro[criacao de diretorios]")
+        exit()
+    if os.path.isdir("../arquivos/wordlist/metasploit") == True:
+        print("check 4-de-5[ok]")
+    else:
+        print("erro[criacao de diretorios]")
+        exit()
+    if os.path.isdir("../arquivos/wordlist/sec_wordlist") == True:
+        print("check 5-de-5[ok]")
+    else:
+        print("erro[criacao de diretorios]")
+        exit()
     urlsMetas = ['https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/adobe_top100_pass.txt',
                  'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/av-update-urls.txt',
                  'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/av_hips_executables.txt',
