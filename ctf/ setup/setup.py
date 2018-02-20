@@ -34,7 +34,7 @@ def install_web():
         print("[pass]=[arquivos/wordlist/sec_word_list[ok]]")
 
 
-    print("inicinado verificacao de diretorios para  o donwloads dos arquivos....[+]")
+    print("=> inicinado verificacao de diretorios para  o donwloads dos arquivos....[+]")
 
     if os.path.isdir("../arquivos") == True:
         print("check 1-de-4[ok]")
@@ -126,8 +126,9 @@ def install_web():
                  'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/vxworks_collide_20.txt',
                  'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/vxworks_common_20.txt',
                  ]
-
-
+    print("instalando wordlist do metasploit[+]")
+    for i in urlsMetas:
+        sys("wget -v -d %s -P ../arquivos/wordlist/metasploit"%i)
 
 
 install_web()
