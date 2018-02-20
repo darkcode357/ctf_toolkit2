@@ -35,8 +35,8 @@ def use():
     print("\tuse encode16")
     print("\tuse ssh")
     #-#
-    print("\tuse server_reverse_tcp")
-    print("\t\t-Inicia em um novo terminal um servidor tcp para shell reverso.")
+    print("\tuse ftp")
+    print("\t\t-Inicia um cliente ftp.")
 def help_base64():
     print (verde+"""
             ================doc_base64================
