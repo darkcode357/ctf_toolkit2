@@ -1,216 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="279e9f6e-86de-4786-9621-c70a9cdde6db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/validators/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/terminal/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tools/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/menu/modulos/brute_force/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/menu/modulos/brute_force/gera_wordlist.py" />
+    <list default="true" id="00906fb5-00ed-474f-8315-b9db0fe48caa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ctf/README.md" afterPath="$PROJECT_DIR$/ctf/README.md" />
-      <change beforePath="$PROJECT_DIR$/ctf/ctf_toolkit.py" afterPath="$PROJECT_DIR$/ctf/ctf_toolkit.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/Blackarch-python-libs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/AUTHORS.rst" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/AUTHORS.rst" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/CHANGELOG" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/CHANGELOG" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/LICENSE" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/MANIFEST.in" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/MANIFEST.in" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/README.rst" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/README.rst" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/Makefile" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/Makefile" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/conf.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/conf.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/images/bottom-toolbar.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/images/bottom-toolbar.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/images/html-completion.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/images/html-completion.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/images/html-input.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/images/html-input.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/images/ptpython-history-help.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/images/ptpython-history-help.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/images/ptpython-menu.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/images/ptpython-menu.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/images/ptpython.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/images/ptpython.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/images/pymux.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/images/pymux.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/images/pyvim.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/images/pyvim.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/images/rprompt.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/images/rprompt.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/index.rst" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/index.rst" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/make.bat" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/make.bat" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/pages/architecture.rst" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/pages/architecture.rst" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/pages/building_prompts.rst" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/pages/building_prompts.rst" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/pages/example.rst" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/pages/example.rst" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/pages/full_screen_apps.rst" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/pages/full_screen_apps.rst" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/pages/gallery.rst" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/pages/gallery.rst" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/docs/pages/reference.rst" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/pages/reference.rst" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/ansi-colors.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/ansi-colors.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/auto-suggestion.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/auto-suggestion.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/autocompletion-like-readline.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/autocompletion-like-readline.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/autocorrection.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/autocorrection.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/bottom-toolbar.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/bottom-toolbar.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/clock-input.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/clock-input.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/colored-prompt.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/colored-prompt.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/confirmation-prompt.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/confirmation-prompt.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/custom-key-binding.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/custom-key-binding.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/custom-vi-operator-and-text-object.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/custom-vi-operator-and-text-object.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/finalterm-shell-integration.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/finalterm-shell-integration.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/full-screen-layout.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/full-screen-layout.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/get-input-vi-mode.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/get-input-vi-mode.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/get-input-with-default.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/get-input-with-default.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/get-input.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/get-input.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/get-multiline-input.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/get-multiline-input.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/get-password-with-toggle-display-shortcut.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/get-password-with-toggle-display-shortcut.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/get-password.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/get-password.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/gevent-get-input.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/gevent-get-input.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/html-input.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/html-input.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/input-validation.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/input-validation.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/inputhook.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/inputhook.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/mouse-support.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/mouse-support.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/multi-column-autocompletion-with-meta.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/multi-column-autocompletion-with-meta.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/multi-column-autocompletion.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/multi-column-autocompletion.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/multiline-prompt.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/multiline-prompt.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/no-wrapping.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/no-wrapping.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/operate-and-get-next.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/operate-and-get-next.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/patch-stdout.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/patch-stdout.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/persistent-history.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/persistent-history.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/print-tokens.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/print-tokens.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/regular-language.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/regular-language.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/rprompt.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/rprompt.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/switch-between-vi-emacs.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/switch-between-vi-emacs.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/system-clipboard-integration.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/system-clipboard-integration.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/system-prompt.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/system-prompt.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/telnet.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/telnet.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/terminal-title.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/terminal-title.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/tutorial/README.rst" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/tutorial/README.rst" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/tutorial/screenshots/1.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/tutorial/screenshots/1.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/tutorial/screenshots/2.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/tutorial/screenshots/2.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/tutorial/screenshots/3.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/tutorial/screenshots/3.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/tutorial/screenshots/4.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/tutorial/screenshots/4.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/tutorial/screenshots/5.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/tutorial/screenshots/5.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/tutorial/screenshots/6.png" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/tutorial/screenshots/6.png" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/tutorial/sqlite-cli.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/tutorial/sqlite-cli.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/examples/up-arrow-partial-string-matching.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/up-arrow-partial-string-matching.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/application.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/application.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/auto_suggest.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/auto_suggest.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/buffer.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/buffer.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/buffer_mapping.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/buffer_mapping.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/cache.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/cache.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/clipboard/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/clipboard/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/clipboard/base.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/clipboard/base.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/clipboard/in_memory.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/clipboard/in_memory.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/clipboard/pyperclip.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/clipboard/pyperclip.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/completion.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/completion.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/completers/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/completers/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/completers/base.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/completers/base.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/completers/filesystem.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/completers/filesystem.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/completers/system.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/completers/system.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/compiler.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/compiler.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/completion.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/completion.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/lexer.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/lexer.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/regex_parser.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/regex_parser.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/validation.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/regular_languages/validation.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/telnet/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/telnet/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/telnet/application.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/telnet/application.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/telnet/log.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/telnet/log.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/telnet/protocol.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/telnet/protocol.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/telnet/server.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/telnet/server.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/validators/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/contrib/validators/base.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/contrib/validators/base.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/document.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/document.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/enums.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/enums.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/asyncio_base.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/asyncio_base.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/asyncio_posix.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/asyncio_posix.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/asyncio_win32.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/asyncio_win32.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/base.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/base.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/callbacks.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/callbacks.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/inputhook.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/inputhook.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/posix.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/posix.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/posix_utils.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/posix_utils.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/select.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/select.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/utils.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/utils.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/eventloop/win32.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/eventloop/win32.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/filters/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/filters/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/filters/base.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/filters/base.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/filters/cli.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/filters/cli.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/filters/types.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/filters/types.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/filters/utils.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/filters/utils.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/history.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/history.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/input.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/input.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/interface.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/interface.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/basic.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/basic.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/completion.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/completion.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/emacs.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/emacs.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/named_commands.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/named_commands.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/scroll.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/scroll.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/vi.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/bindings/vi.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/defaults.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/defaults.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/digraphs.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/digraphs.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/input_processor.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/input_processor.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/manager.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/manager.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/registry.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/registry.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/key_binding/vi_state.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/key_binding/vi_state.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/keys.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/keys.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/containers.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/containers.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/controls.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/controls.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/dimension.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/dimension.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/lexers.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/lexers.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/margins.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/margins.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/menus.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/menus.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/mouse_handlers.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/mouse_handlers.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/processors.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/processors.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/prompt.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/prompt.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/screen.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/screen.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/toolbars.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/toolbars.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/layout/utils.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/layout/utils.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/mouse_events.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/mouse_events.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/output.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/output.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/reactive.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/reactive.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/renderer.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/renderer.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/search_state.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/search_state.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/selection.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/selection.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/shortcuts.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/shortcuts.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/styles/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/styles/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/styles/base.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/styles/base.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/styles/defaults.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/styles/defaults.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/styles/from_dict.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/styles/from_dict.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/styles/from_pygments.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/styles/from_pygments.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/styles/utils.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/styles/utils.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/terminal/__init__.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/examples/tutorial/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/terminal/conemu_output.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/terminal/conemu_output.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/terminal/vt100_input.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/terminal/vt100_input.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/terminal/vt100_output.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/terminal/vt100_output.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/terminal/win32_input.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/terminal/win32_input.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/terminal/win32_output.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/terminal/win32_output.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/token.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/token.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/utils.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/utils.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/validation.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/validation.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/prompt_toolkit/win32_types.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/prompt_toolkit/win32_types.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/setup.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/setup.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_buffer.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_buffer.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_cli.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_cli.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_contrib.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_contrib.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_document.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_document.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_filter.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_filter.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_inputstream.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_inputstream.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_key_binding.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_key_binding.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_layout.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_layout.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_print_tokens.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_print_tokens.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_regular_languages.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_regular_languages.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_shortcuts.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_shortcuts.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_style.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_style.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_utils.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_utils.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tests/test_yank_nth_arg.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tests/test_yank_nth_arg.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tools/debug_vt100_input.py" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tools/debug_vt100_input.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/files/python-prompt-toolkit/tox.ini" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/tox.ini" />
-      <change beforePath="$PROJECT_DIR$/ctf/install_libs/packs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ctf/menu/banner_menu/banners.py" afterPath="$PROJECT_DIR$/ctf/menu/banner_menu/banners.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/menu/menu.py" afterPath="$PROJECT_DIR$/ctf/menu/menu.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/chama_ftp.py" afterPath="$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/chama_ftp.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/setup/setup.py" afterPath="$PROJECT_DIR$/ctf/setup/setup.py" />
+      <change beforePath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/make.bat" afterPath="$PROJECT_DIR$/ctf/atualizar/files/python-prompt-toolkit/docs/make.bat" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -220,146 +13,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="telnet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/telnet/telnet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scanner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/scanner/scanner_tcp/scanner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ftp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="80" column="32" lean-forward="false" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check_net.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ctf/setup/modulos/check_net.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/setup/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="181" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#537#7937#0" expanded="false" />
-                <element signature="e#7961#10065#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gera_wordlist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/brute_force/gera_wordlist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="15" />
-              <folding>
-                <element signature="e#247#310#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="banners.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/menu/banner_menu/banners.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ctf_toolkit.py" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="ctf_toolkit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ctf/ctf_toolkit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#7#55#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>joomla.txt</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/ctf/menu/modulos/os/servicos/telnet/telnet.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/modulos/kernel_exploit.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/modulos/kernel_exploit/kernel_pwd.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ssh/kernel.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ssh/ssh.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/documentacao/info.py" />
-        <option value="$PROJECT_DIR$/ctf/setup/urls.txt" />
-        <option value="$PROJECT_DIR$/ctf/setup/modulos/check_net.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/chama_ftp.py" />
-        <option value="$PROJECT_DIR$/ctf/README.md" />
-        <option value="$PROJECT_DIR$/ctf/menu/modulos/brute_force/gera_wordlist.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/menu.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/banner_menu/banners.py" />
-        <option value="$PROJECT_DIR$/ctf/install_libs/packs.py" />
-        <option value="$PROJECT_DIR$/ctf/setup/setup.py" />
-        <option value="$PROJECT_DIR$/ctf/ctf_toolkit.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="444" />
@@ -367,7 +35,6 @@
     <option name="width" value="1366" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -383,7 +50,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -397,25 +63,12 @@
               <item name="ctf_toolkit2" type="462c0819:PsiDirectoryNode" />
               <item name="ctf" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ctf_toolkit2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/curso_de_python" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ctf/atualizar" />
-      <recent name="$PROJECT_DIR$/ctf/setup" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -429,74 +82,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.setup">
-    <configuration name="ftp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ctf-pl" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="kernel_pwd" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu/modulos/kernel_exploit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ctf-pl" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/modulos/kernel_exploit/kernel_pwd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/setup" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ctf-pl" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/setup/setup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.kernel_pwd" />
-      <item index="1" class="java.lang.String" itemvalue="Python.setup" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ftp" />
-    </list>
-    <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.setup" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ftp" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kernel_pwd" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -505,503 +90,51 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="279e9f6e-86de-4786-9621-c70a9cdde6db" name="Default" comment="" />
-      <created>1513455579085</created>
+      <changelist id="00906fb5-00ed-474f-8315-b9db0fe48caa" name="Default" comment="" />
+      <created>1519245890560</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1513455579085</updated>
+      <updated>1519245890560</updated>
     </task>
-    <task id="LOCAL-00001" summary="test setup">
-      <created>1519061329321</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1519061329321</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test setup">
-      <created>1519061424354</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1519061424354</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test setup">
-      <created>1519087284007</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1519087284007</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test setup&#10;&#10;Signed-off-by: darkcode357 &lt;darkcode357@gmail.com&gt;">
-      <created>1519087349517</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1519087349517</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test setup&#10;&#10;Signed-off-by: darkcode357 &lt;darkcode357@gmail.com&gt;">
-      <created>1519088607645</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1519088607645</updated>
-    </task>
-    <task id="LOCAL-00006" summary="test setup&#10;&#10;Signed-off-by: darkcode357 &lt;darkcode357@gmail.com&gt;">
-      <created>1519088675752</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1519088675752</updated>
-    </task>
-    <task id="LOCAL-00007" summary="test setup&#10;&#10;Signed-off-by: darkcode357 &lt;darkcode357@gmail.com&gt;">
-      <created>1519090411533</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1519090411533</updated>
-    </task>
-    <task id="LOCAL-00008" summary="test setup&#10;&#10;Signed-off-by: darkcode357 &lt;darkcode357@gmail.com&gt;">
-      <created>1519162965786</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1519162965787</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="31" width="1372" height="692" extended-state="6" />
+    <frame x="444" y="80" width="1372" height="692" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24773414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32460734" sideWeight="0.5030211" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32460734" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.49697885" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="test setup" />
-    <MESSAGE value="test setup&#10;&#10;Signed-off-by: darkcode357 &lt;darkcode357@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="test setup&#10;&#10;Signed-off-by: darkcode357 &lt;darkcode357@gmail.com&gt;" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/database/dbs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/telnet/telnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ctf/ctf_toolkit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#7#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#247#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/database/dbs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/telnet/telnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#247#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#247#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#247#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#247#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#247#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/telnet/dsa.sh" />
-    <entry file="file://$PROJECT_DIR$/venv/pip-selfcheck.json" />
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/kernel_exploit.py" />
-    <entry file="file://$PROJECT_DIR$/ctf/menu/documentacao/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/setup/urls.txt" />
-    <entry file="file://$PROJECT_DIR$/ctf/setup/setup.py" />
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ssh/kernel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/chama_ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/documentacao/info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="49" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/decode/decode16/decode16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/decode/decode32/decode32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/decode/decode64/decode64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/database/dbs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/kernel_exploit/kernel_pwd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/reverse_shell/chama_serv_reverse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/reverse_shell/servidor_reverse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/reverse_shell/servidor_tcp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/scanner/scanner_arp/scanner_arp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ssh/ssh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/scanner/scanner_tcp/scanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="80" column="32" lean-forward="false" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/brute_force/gera_wordlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/telnet/telnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="15" />
-          <folding>
-            <element signature="e#247#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/banner_menu/banners.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/setup/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="181" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#537#7937#0" expanded="false" />
-            <element signature="e#7961#10065#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/install_libs/packs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/ctf_toolkit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/setup/modulos/check_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
