@@ -10,6 +10,8 @@ ciano = '\033[46m'
 magenta = '\033[45m'
 dsa =""
 #imports
+#wordlist
+from menu.modulos.brute_force.gera_wordlist import gera_wrdlist
 #decode
 from menu.modulos.base.decode.decode64.decode64 import decode64
 from menu.modulos.base.decode.decode32.decode32 import decode32
@@ -25,52 +27,27 @@ from menu.documentacao.info import use, list
 from menu.modulos.os.servicos.ftp.ftp import ftp
 #documentacao do s modulos 
 from menu.documentacao.info import help_base64
-menub = verde + """
-       .:'                                  `:.
-      ::'                                    `::
-     :: :.                                  .: ::
-      `:. `:.             .             .:'  .:'
-       `::. `::           !           ::' .::'
-           `::.`::.    .' ! `.    .::'.::'
-             `:.  `::::'':!:``::::'   ::'
-             :'*:::.  .:' ! `:.  .:::*`:
-            :: HHH::.   ` ! '   .::HHH ::
-           ::: `H TH::.  `!'  .::HT H' :::
-           ::..  `THHH:`:   :':HHHT'  ..::
-           `::      `T: `. .' :T'      ::'
-             `:. .   :         :   . .:'
-               `::'               `::'
-                 :'  .`.  .  .'.  `:
-                 :' ::.       .:: `:
-                 :' `:::     :::' `:
-                  `.  ``     ''  .'
-                   :`...........':
-                   ` :`.     .': '
-                    `:  `''''  :'
+# documentacao do s modulos
+from menu.documentacao.info import help_base64
+from menu.documentacao.info import use, list
+from menu.modulos.base.decode.decode16.decode16 import decode16
+from menu.modulos.base.decode.decode32.decode32 import decode32
+# decode
+from menu.modulos.base.decode.decode64.decode64 import decode64
+from menu.modulos.base.encode.encode16 import encode16
+from menu.modulos.base.encode.encode32 import encode32
+# encode
+from menu.modulos.base.encode.encode64 import encode64
+# imports
+# wordlist
+from menu.modulos.brute_force.gera_wordlist import gera_wrdlist
+# ftp
+from menu.modulos.os.servicos.ftp.ftp import ftp
+# ssh
+from menu.modulos.os.servicos.ssh.ssh import ssh
 
-
-                     """
-
-
-sub_menu = amarelo + """
-███╗   ███╗███████╗███╗   ██╗██╗   ██╗       ██████╗████████╗███████╗
-████╗ ████║██╔════╝████╗  ██║██║   ██║      ██╔════╝╚══██╔══╝██╔════╝
-██╔████╔██║█████╗  ██╔██╗ ██║██║   ██║█████╗██║        ██║   █████╗  
-██║╚██╔╝██║██╔══╝  ██║╚██╗██║██║   ██║╚════╝██║        ██║   ██╔══╝  
-██║ ╚═╝ ██║███████╗██║ ╚████║╚██████╔╝      ╚██████╗   ██║   ██║     
-╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝        ╚═════╝   ╚═╝   ╚═╝ 
-############
-ipctf = %s##
-############
-criado darkcode0x00
-versao 0.3
-data 12/12/17
-help - list - banner
-""" %dsa
 
 def menu():
-    #import sys
-    #sys.path.append(('../'))
     while True:
         try:
             menu = input(azul+u'\u27a4'+vermelho)
@@ -101,116 +78,10 @@ def menu():
                 ssh()
             elif menu == "use ftp":
                 ftp()
+            elif menu == "use gera_wordlist":
+                gera_wrdlist()
             elif menu =="info base64":
                 help_base64()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            elif menu == "use ip":
-                dsa = input("ip=>")
-                menub = azul + """
-                       .:'                                  `:.
-                      ::'                                    `::
-                     :: :.                                  .: ::
-                      `:. `:.             .             .:'  .:'
-                       `::. `::           !           ::' .::'
-                           `::.`::.    .' ! `.    .::'.::'
-                             `:.  `::::'':!:``::::'   ::'
-                             :'*:::.  .:' ! `:.  .:::*`:
-                            :: HHH::.   ` ! '   .::HHH ::
-                           ::: `H TH::.  `!'  .::HT H' :::
-                           ::..  `THHH:`:   :':HHHT'  ..::
-                           `::      `T: `. .' :T'      ::'
-                             `:. .   :         :   . .:'
-                               `::'               `::'
-                                 :'  .`.  .  .'.  `:
-                                 :' ::.       .:: `:
-                                 :' `:::     :::' `:
-                                  `.  ``     ''  .'
-                                   :`...........':
-                                   ` :`.     .': '
-                                    `:  `''''  :'
-
-
-                                     """
-
-                sub_menu = amarelo + """
-                ███╗   ███╗███████╗███╗   ██╗██╗   ██╗       ██████╗████████╗███████╗
-                ████╗ ████║██╔════╝████╗  ██║██║   ██║      ██╔════╝╚══██╔══╝██╔════╝
-                ██╔████╔██║█████╗  ██╔██╗ ██║██║   ██║█████╗██║        ██║   █████╗  
-                ██║╚██╔╝██║██╔══╝  ██║╚██╗██║██║   ██║╚════╝██║        ██║   ██╔══╝  
-                ██║ ╚═╝ ██║███████╗██║ ╚████║╚██████╔╝      ╚██████╗   ██║   ██║     
-                ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝        ╚═════╝   ╚═╝   ╚═╝ 
-                ############
-                ipctf = %s##
-                ############
-                criado darkcode0x00
-                versao 0.3
-                data 12/12/17
-                help - list - banner
-                """ % dsa
             elif menu =="sair":
                 import  sys
                 sys.exit(1)
