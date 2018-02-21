@@ -11,6 +11,10 @@ from wget import *
 def pip():
     from os import system as sys
     try:
+        import wget
+    except ImportError as e:
+        pip.main(['install', 'wget'])
+    try:
         import nmap
     except ImportError as e:
         pip.main(['install','python-nmap'])
