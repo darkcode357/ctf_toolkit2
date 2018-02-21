@@ -1,10 +1,5 @@
+import glob
 import os.path
-import wget
-from wget import *
-import glob
-import pip
-from modulos.check_net import check
-import glob
 import os.path
 
 import pip
@@ -169,6 +164,7 @@ def metasploit():
 
 def sec_wordlist():
     import git
+    print("va beber um cafe [30M]")
     git.Git("../arquivos/wordlist/sec_wordlist/").clone("https://github.com/danielmiessler/SecLists")
 
 #####################################
