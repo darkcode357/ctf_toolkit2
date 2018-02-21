@@ -3,9 +3,7 @@ import os.path
 import os.path
 
 import pip
-import wget
 from modulos.check_net import check
-from wget import *
 
 
 def pip():
@@ -27,6 +25,7 @@ def pip():
     except ImportError as e:
         sys("pip3 install prompt_toolkit")
 def metasploit():
+    import wget
     urlsMetas = [
         'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/adobe_top100_pass.txt',
         'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/av-update-urls.txt',
