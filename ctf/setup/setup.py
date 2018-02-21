@@ -1,29 +1,21 @@
 import glob
 import os.path
 import os.path
+from os import system as sy
 
 import pip
 from modulos.check_net import check
+from pip import *
 
 
 def pip():
-    from os import system as sys
-    try:
-        import wget
-    except ImportError as e:
-        pip.main(['install', 'wget'])
-    try:
-        import nmap
-    except ImportError as e:
-        pip.main(['install','python-nmap'])
-    try:
-        import base64
-    except ImportError as e:
-        print(e)
-    try:
-        import prompt_toolkit
-    except ImportError as e:
-        sys("pip3 install prompt_toolkit")
+    libs = ['pymysql', 'cx_Oracle', 'psycopg2', 'pymongo', 'wget', 'python-nmap', 'prompt_toolkit']
+    for i in libs:
+        import pip
+        pip.main(['install', i])
+    sy("clear")
+
+
 def metasploit():
     import wget
     urlsMetas = [
