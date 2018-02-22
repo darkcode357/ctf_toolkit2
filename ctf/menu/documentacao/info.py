@@ -10,42 +10,42 @@ magenta = '\033[45m'
 def list():
     print("##########################################")
     print("################comandos##################")
-    print("##########################################")
-    print("%s[info]%s=base64-encode%s[comando]%s=use encode64" % (azul, verde, azul, verde))
-    print("%s[info]%s=base64-decode%s[comando]%s=use decode64" % (azul, verde, azul, verde))
-    print("%s[info]%s=base64-info%s  [comando]%s=use info base64" % (azul, verde, azul, verde))
-    print("%s[info]%s=base32-encode%s[comando]%s=use encode32" % (azul, verde, azul, verde))
-    print("%s[info]%s=base32-decode%s[comando]%s=use decode32" % (azul, verde, azul, verde))
-    print("%s[info]%s=base32-info%s  [comando]%s=use info base32[=]" % (azul, verde, azul, verde))
-    print("%s[info]%s=base16-encode%s[comando]%s=use encode16" % (azul, verde, azul, verde))
-    print("%s[info]%s=base16-decode%s[comando]%s=use decode16" % (azul, verde, azul, verde))
-    print("%s[info]%s=base16-info%s  [comando]%s=use info base16[=]" % (azul, verde, azul, verde))
-    print("%s[info]%s=wordlist_gera%s[comando]%s=use gera_wordlist" % (azul, verde, azul, verde))
-    print("%s[info]%s=wordlist_info%s[comando]%s=use info wordlist[=]" % (azul, verde, azul, verde))
-    print("%s[info]%s=ftp          %s[comando]%s=use ftp[=]" % (azul, verde, azul, verde))
-    print("%s[info]%s=%s[comando]%s=" % (azul, verde, azul, verde))
-    print("%s[info]%s=%s[comando]%s=" % (azul, verde, azul, verde))
-    print("%s[info]%s=%s[comando]%s=" % (azul, verde, azul, verde))
-    print("%s[info]%s=%s[comando]%s=" % (azul, verde, azul, verde))
-    print("%s[info]%s=%s[comando]%s=" % (azul, verde, azul, verde))
-    print("%s[info]%s=ssh+ctf_shell%s[comando%s]= use ssh => use ctf_shell" % (azul, verde, azul, verde))
-    print("%s[info]%s=reverse_shell%s[comando]%s=" % (azul, verde, azul, verde))
-    
 
-def use():
-    print("use + nomedo do modulo")
-    print("-"*20)
-    print("comandos bases")
-    print("\tuse decode64")
-    print("\tuse encode64\n")
-    print("\tuse decode32")
-    print("\tuse encode32")
-    print("\tuse decode16")
-    print("\tuse encode16")
-    print("\tuse ssh")
-    #-#
-    print("\tuse ftp")
-    print("\t\t-Inicia um cliente ftp.")
+    print("##########################################")
+    print("%s[info]%s=base64-encode%s   =>   %s[comando]%s=use encode64" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=base64-decode%s   =>   %s[comando]%s=use decode64" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=base64-info%s     =>   %s[comando]%s=use info base64" % (azul, verde, amarelo, azul, verde))
+
+    print("%s[info]%s=base32-encode%s   =>   %s[comando]%s=use encode32" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=base32-decode%s   =>   %s[comando]%s=use decode32" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=base32-info%s     =>   %s[comando]%s=use info base32[=]" % (azul, verde, amarelo, azul, verde))
+
+    print("%s[info]%s=base16-encode%s   =>   %s[comando]%s=use encode16" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=base16-decode%s   =>   %s[comando]%s=use decode16" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=base16-info%s     =>   %s[comando]%s=use info base16[=]" % (azul, verde, amarelo, azul, verde))
+
+    print("%s[info]%s=wordlist_gera%s   =>   %s[comando]%s=use gera_wordlist" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=wordlist_info%s   =>   %s[comando]%s=use info wordlist[=]" % (azul, verde, amarelo, azul, verde))
+
+    print("%s[info]%s=ftp-cli      %s   =>   %s[comando]%s=use ftp[=]" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=ftp-info     %s   =>   %s[comando]%s=use info ftp[=]" % (azul, verde, amarelo, azul, verde))
+
+    print("%s[info]%s=ssh+ctf_shell%s   =>   %s[comando]%s=use ssh => use ctf_shell" % (
+    azul, verde, amarelo, azul, verde))
+
+    print("%s[info]%s=reverse_shell%s   =>   %s[comando]%s=use reverse_tcp" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=reverse_shell-info%s=> %s[comando]%s=use info reverse_tcp" % (azul, verde, amarelo, azul, verde))
+
+    print("%s[info]%s=sair         %s   =>   %s[comando]%s=sair" % (azul, verde, amarelo, azul, verde))
+
+    print("%s[info]%s=wget-baixar  %s   =>   %s[comando]%s=use baixar" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=wget-info    %s   =>   %s[comando]%s=use info baixar" % (azul, verde, amarelo, azul, verde))
+
+    print("%s[info]%s=gera_payload %s   =>   %s[comando]%s=use gera_payload" % (azul, verde, amarelo, azul, verde))
+    print("%s[info]%s=%s[comando]%s=" % (azul, verde, azul, verde))
+    print("%s[info]%s=%s[comando]%s=" % (azul, verde, azul, verde))
+
+
 def help_base64():
     print (verde+"""
             ================doc_base64================

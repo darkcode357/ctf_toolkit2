@@ -8,35 +8,21 @@ normal = '\033[0;0m'
 amarelo = '\033[1;33m'
 ciano = '\033[46m'
 magenta = '\033[45m'
-#imports
 # sair
-from sys import exit
 # reverse_shell
-from .modulos.os.reverse_shell.servidor_tcp import main
-#wordlist
+# wordlist
 # decode
 # encode
 # ssh
 # ftp
 # documentacao do s modulos
 # documentacao do s modulos
-from menu.documentacao.info import help_base64
-from menu.documentacao.info import list
-from menu.modulos.base.decode.decode16.decode16 import decode16
-from menu.modulos.base.decode.decode32.decode32 import decode32
 # decode
-from menu.modulos.base.decode.decode64.decode64 import decode64
-from menu.modulos.base.encode.encode16 import encode16
-from menu.modulos.base.encode.encode32 import encode32
 # encode
-from menu.modulos.base.encode.encode64 import encode64
 # imports
 # wordlist
-from menu.modulos.brute_force.gera_wordlist import gera_wrdlist
 # ftp
-from menu.modulos.os.servicos.ftp.ftp import ftp
 # ssh
-from menu.modulos.os.servicos.ssh.ssh import ssh
 # imports
 # sair
 from sys import exit
@@ -66,6 +52,11 @@ from menu.modulos.os.servicos.ftp.ftp import ftp
 # ssh
 from menu.modulos.os.servicos.ssh.ssh import ssh
 
+# donwload
+from .modulos.donwloads.baixar import baixarU
+# imports
+# gera_payloads
+from .modulos.gera_payloads.gera_payloads import payloads
 # reverse_shell
 from .modulos.os.reverse_shell.servidor_tcp import main
 
@@ -110,6 +101,10 @@ def menu():
                 help_base64()
             elif menu == "use reverse_tcp":
                 main()
+            elif menu == "use baixar":
+                baixarU()
+            elif menu == "use gera_payload":
+                payloads()
             elif menu =="sair":
                 exit(1)
         except KeyboardInterrupt as e:
