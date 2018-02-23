@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00906fb5-00ed-474f-8315-b9db0fe48caa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py" afterPath="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py" />
       <change beforePath="$PROJECT_DIR$/ctf/setup/setup.py" afterPath="$PROJECT_DIR$/ctf/setup/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gera_payloads.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gera_payloads.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="332">
+              <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -37,14 +36,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ctf/setup/setup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="11" column="103" lean-forward="false" selection-start-line="11" selection-start-column="103" selection-end-line="11" selection-end-column="103" />
+              <caret line="11" column="110" lean-forward="false" selection-start-line="11" selection-start-column="110" selection-end-line="11" selection-end-column="110" />
               <folding>
-                <element signature="e#394#7794#0" expanded="false" />
-                <element signature="e#7818#9922#0" expanded="false" />
+                <element signature="e#401#7801#0" expanded="false" />
+                <element signature="e#7825#9929#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -158,8 +157,8 @@
         <option value="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/python_Base64.py" />
         <option value="$PROJECT_DIR$/ctf/menu/menu.py" />
         <option value="$PROJECT_DIR$/ctf/menu/documentacao/info.py" />
-        <option value="$PROJECT_DIR$/ctf/setup/setup.py" />
         <option value="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py" />
+        <option value="$PROJECT_DIR$/ctf/setup/setup.py" />
       </list>
     </option>
   </component>
@@ -360,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519330283821</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dark">
+      <created>1519422334802</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1519422334802</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -671,23 +677,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/setup/setup.py">
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="103" lean-forward="false" selection-start-line="11" selection-start-column="103" selection-end-line="11" selection-end-column="103" />
+        <state relative-caret-position="332">
+          <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
           <folding>
-            <element signature="e#394#7794#0" expanded="false" />
-            <element signature="e#7818#9922#0" expanded="false" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py">
+    <entry file="file://$PROJECT_DIR$/ctf/setup/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="11" column="110" lean-forward="false" selection-start-line="11" selection-start-column="110" selection-end-line="11" selection-end-column="110" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#401#7801#0" expanded="false" />
+            <element signature="e#7825#9929#0" expanded="false" />
           </folding>
         </state>
       </provider>
