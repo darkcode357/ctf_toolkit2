@@ -9,7 +9,7 @@ from pip import *
 
 
 def pip():
-    libs = ['pymysql', 'cx_Oracle', 'psycopg2', 'pymongo', 'wget', 'python-nmap', 'prompt_toolkit']
+    libs = ['pymysql', 'cx_Oracle', 'psycopg2', 'pymongo', 'wget', 'python-nmap', 'prompt_toolkit', 'git']
     for i in libs:
         import pip
         pip.main(['install', i])
