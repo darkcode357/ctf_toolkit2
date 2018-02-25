@@ -16,6 +16,12 @@ def pip():
     sy("clear")
 
 
+def git():
+    import git
+    git.Git("git/").clone("https://github.com/rhelmot/nclib")
+    os.system("python3 git/nclib/setup.py install")
+
+
 def metasploit():
     import wget
     urlsMetas = [

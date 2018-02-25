@@ -11,6 +11,9 @@ from prompt_toolkit.key_binding.bindings.completion import display_completions_l
 from prompt_toolkit.key_binding.defaults import load_key_bindings
 from prompt_toolkit.keys import Keys
 
+
+def darkcode():
+    print("dsa" * 30)
 animal_completer = WordCompleter([
     'alligator', 'ant', 'ape', 'bat', 'bear', 'beaver', 'bee', 'bison',
     'butterfly', 'cat', 'chicken', 'crocodile', 'dinosaur', 'dog', 'dolphine',
@@ -27,13 +30,14 @@ registry.add_binding(Keys.ControlI)(display_completions_like_readline)
 
 
 def main():
-    text = prompt('Give some animals: ', completer=animal_completer,
-                  key_bindings_registry=registry,
+    while True:
+        text = prompt('Give some animals: ', completer=animal_completer,
+                      key_bindings_registry=registry,
 
-                  # Important: for this to work: `complete_while_typing` needs
-                  #            to be False.
-                  complete_while_typing=True)
-    print('You said: %s' % text)
+                      # Important: for this to work: `complete_while_typing` needs
+                      #            to be False.
+                      complete_while_typing=True)
+        print('You said: %s' % text)
 
 
 if __name__ == '__main__':

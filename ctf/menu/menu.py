@@ -8,6 +8,7 @@ normal = '\033[0;0m'
 amarelo = '\033[1;33m'
 ciano = '\033[46m'
 magenta = '\033[45m'
+
 # sair
 # reverse_shell
 # wordlist
@@ -51,6 +52,14 @@ from menu.modulos.brute_force.gera_wordlist import gera_wrdlist
 from menu.modulos.os.servicos.ftp.ftp import ftp
 # ssh
 from menu.modulos.os.servicos.ssh.ssh import ssh
+# prompt
+from prompt_toolkit import prompt
+from prompt_toolkit.contrib.completers import WordCompleter
+from prompt_toolkit.key_binding.bindings.completion import display_completions_like_readline
+from prompt_toolkit.key_binding.defaults import load_key_bindings
+from prompt_toolkit.keys import Keys
+from prompt_toolkit.styles import style_from_dict
+from prompt_toolkit.token import Token
 
 # donwload
 from .modulos.donwloads.baixar import baixarU
@@ -60,52 +69,123 @@ from .modulos.gera_payloads.gera_payloads import payloads
 # reverse_shell
 from .modulos.os.reverse_shell.servidor_tcp import main
 
-
 #lelei anasp
+
+
+registry = load_key_bindings()
+registry.add_binding(Keys.ControlI)(display_completions_like_readline)
+
+example_style = style_from_dict({
+    # User input.
+    Token: '#001EB6',
+
+    # Prompt.
+    Token.Username: '#0074FF',
+    Token.At: '#FF0000',
+    Token.Colon: '#FF0000',
+    Token.Pound: '#FF0000',
+    Token.Host: '#FF0000 bg:#aaaaff',
+    Token.Path: '#FF0000 underline',
+})
+
+animal_completer = WordCompleter([
+    'use encode64',
+    'use encode32',
+    'use encode16',
+    'use decode64',
+    'use decode16 ',
+    'use decode32',
+    'use ssh',
+    'use ftp',
+    'use gera_wordlist',
+    'use reverse_tcp',
+    'use baixar',
+    'use gera_payload',
+    'comandos'
+], meta_dict={
+    'use encode64': "encode texto para base64",
+
+    'use encode32': "encode texto para base32",
+
+    'use encode16': "encode texto para base16",
+
+    'use decode64': "decode base64 para texto",
+
+    'use decode16': "decode base16 para texto",
+
+    'use decode32': "decode base32 para texto",
+
+    'use baixar': "baixa arquivos",
+
+    'use ssh': "inicia sessao com ssh",
+
+    'use ftp': "inicia sessao com ftp",
+
+    'use gera_wordlist': "gera wordlist",
+
+    'use reverse_tcp': "inicia reverse_shell",
+
+    'use gera_payload': "gera payload",
+    "comandos": "lista todos os comandos do ctf_toolkit"
+}, ignore_case=True)
+
+
+
 
 def menu():
     while True:
-        try:
-            menu = input(azul+u'\u27a4'+vermelho)
+        menu = prompt('ctf@toolkit=>: ', completer=animal_completer,
+                      key_bindings_registry=registry,
 
-            if menu == "help use":
-                use()
-            elif menu == "list":
-                list()
-            elif menu =="clean":
-                import os;os.system("clear")
-                list()
-                use()
-                del os
-            elif menu == "use decode64":
-                decode64()
-            elif menu == "use encode64":
-                encode64()
-            elif menu == "use decode32":
-                decode32()
-            elif menu == "use encode32":
-                encode32()
-            elif menu == "use decode16":
-                decode16()
-            elif menu == "use encode16":
-                encode16()
-            elif menu == "use ssh":
-                ssh()
-            elif menu == "use ftp":
-                ftp()
-            elif menu == "use gera_wordlist":
-                gera_wrdlist()
-            elif menu == "comandos":
-                list()
-            elif menu =="info base64":
-                help_base64()
-            elif menu == "use reverse_tcp":
-                main()
-            elif menu == "use baixar":
-                baixarU()
-            elif menu == "use gera_payload":
-                payloads()
-            elif menu =="sair":
-                exit(1)
+                      # Important: for this to work: `complete_while_typing` needs
+                      #            to be False.
+                      complete_while_typing=True, style=example_style)
+        try:
+            try:
+                if menu == "help use":
+                    print("%s[+]%s use comandos" % (amarelo, azul))
+                elif menu == "list":
+                    list()
+                elif menu == "clean":
+                    import os;
+
+                    os.system("clear")
+                    list()
+                    del os
+                elif menu == "use decode64":
+                    decode64()
+                elif menu == "use encode64":
+                    encode64()
+                elif menu == "use decode32":
+                    decode32()
+                elif menu == "use encode32":
+                    encode32()
+                elif menu == "use decode16":
+                    decode16()
+                elif menu == "use encode16":
+                    encode16()
+                elif menu == "use ssh":
+                    ssh()
+                elif menu == "use ftp":
+                    ftp()
+                elif menu == "use gera_wordlist":
+                    gera_wrdlist()
+                elif menu == "comandos":
+                    list()
+                elif menu == "info base64":
+                    help_base64()
+                elif menu == "use reverse_tcp":
+                    main()
+                elif menu == "use baixar":
+                    baixarU()
+                elif menu == "use gera_payload":
+                    payloads()
+                elif menu == "sair":
+                    print("%s[+]%sobrigado por usar o ctf_toolkit" % (amarelo, azul))
+                    print("%s[+]%scriador darkcode" % (amarelo, azul))
+                    exit(1)
+            except EOFError:
+                print(amarelo + "digite help")
+
         except KeyboardInterrupt as e:
-            print(amarelo+"digite help")
+            print(amarelo + "digite help")
