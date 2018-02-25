@@ -8,7 +8,6 @@ normal = '\033[0;0m'
 amarelo = '\033[1;33m'
 ciano = '\033[46m'
 magenta = '\033[45m'
-
 # sair
 # reverse_shell
 # wordlist
@@ -66,6 +65,7 @@ from .modulos.donwloads.baixar import baixarU
 # imports
 # gera_payloads
 from .modulos.gera_payloads.gera_payloads import payloads
+from .modulos.hash.hashs import *
 # reverse_shell
 from .modulos.os.reverse_shell.servidor_tcp import main
 
@@ -89,6 +89,19 @@ example_style = style_from_dict({
 })
 
 animal_completer = WordCompleter([
+
+    'use encode_sha3_256',
+    'use encode_sha256',
+    'use encode_blake2b',
+    'use encode_sha384',
+    'use encode_md5',
+    'use encode_sha3_512',
+    'use encode_sha512',
+    'use encode_sha1',
+    'use encode_sha3_224',
+    'use encode_blake2s',
+    'use encode_sha3_384',
+    'use encode_sha224',
     'use encode64',
     'use encode32',
     'use encode16',
@@ -103,6 +116,18 @@ animal_completer = WordCompleter([
     'use gera_payload',
     'comandos'
 ], meta_dict={
+    'use encode_sha3_256': "encode_sha3_256",
+    'use encode_sha256': "encode_sha3_256",
+    'use encode_blake2b': "encode_sha3_256",
+    'use encode_sha384': "encode_sha3_256",
+    'use encode_md5': "encode_sha3_256",
+    'use encode_sha3_512': "encode_sha3_256",
+    'use encode_sha512': "encode_sha3_256",
+    'use encode_sha1': "encode_sha3_256",
+    'use encode_sha3_224': "encode_sha3_256",
+    'use encode_blake2s': "encode_sha3_256",
+    'use encode_sha3_384': "encode_sha3_256",
+    'use encode_sha224': "encode_sha3_256",
     'use encode64': "encode texto para base64",
 
     'use encode32': "encode texto para base32",
@@ -180,6 +205,30 @@ def menu():
                     baixarU()
                 elif menu == "use gera_payload":
                     payloads()
+                elif menu == 'use encode_sha3_256':
+                    sha3_256()
+                elif menu == 'use encode_sha256':
+                    sha256()
+                elif menu == 'use encode_blake2b':
+                    blake2b()
+                elif menu == 'use encode_sha384':
+                    sha384()
+                elif menu == 'use encode_md5':
+                    md5()
+                elif menu == 'use encode_sha3_512':
+                    sha3_512()
+                elif menu == 'use encode_sha512':
+                    sha512()
+                elif menu == 'use encode_sha1':
+                    sha1()
+                elif menu == 'use encode_sha3_224':
+                    sha3_224()
+                elif menu == 'use encode_blake2s':
+                    blake2s()
+                elif menu == 'use encode_sha3_384':
+                    sha3_384()
+                elif menu == 'use encode_sha224':
+                    sha224
                 elif menu == "sair":
                     print("%s[+]%sobrigado por usar o ctf_toolkit" % (amarelo, azul))
                     print("%s[+]%scriador darkcode" % (amarelo, azul))
