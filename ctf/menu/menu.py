@@ -25,7 +25,6 @@ magenta = '\033[45m'
 # ssh
 # imports
 # sair
-from sys import exit
 
 # wordlist
 # decode
@@ -34,129 +33,26 @@ from sys import exit
 # ftp
 # documentacao do s modulos
 # documentacao do s modulos
-from menu.documentacao.info import help_base64
-from menu.documentacao.info import list
-from menu.modulos.base.decode.decode16.decode16 import decode16
-from menu.modulos.base.decode.decode32.decode32 import decode32
 # decode
-from menu.modulos.base.decode.decode64.decode64 import decode64
-from menu.modulos.base.encode.encode16 import encode16
-from menu.modulos.base.encode.encode32 import encode32
 # encode
-from menu.modulos.base.encode.encode64 import encode64
 # imports
 # wordlist
-from menu.modulos.brute_force.gera_wordlist import gera_wrdlist
 # ftp
-from menu.modulos.os.servicos.ftp.ftp import ftp
 # ssh
-from menu.modulos.os.servicos.ssh.ssh import ssh
 # prompt
-from prompt_toolkit import prompt
-from prompt_toolkit.contrib.completers import WordCompleter
-from prompt_toolkit.key_binding.bindings.completion import display_completions_like_readline
-from prompt_toolkit.key_binding.defaults import load_key_bindings
-from prompt_toolkit.keys import Keys
-from prompt_toolkit.styles import style_from_dict
-from prompt_toolkit.token import Token
+import cmd
 
 # donwload
-from .modulos.donwloads.baixar import baixarU
 # imports
 # gera_payloads
-from .modulos.gera_payloads.gera_payloads import payloads
-from .modulos.hash.hashs import *
 # reverse_shell
-from .modulos.os.reverse_shell.servidor_tcp import main
 
-#lelei anasp
-
-
-registry = load_key_bindings()
-registry.add_binding(Keys.ControlI)(display_completions_like_readline)
-
-example_style = style_from_dict({
-    # User input.
-    Token: '#001EB6',
-
-    # Prompt.
-    Token.Username: '#0074FF',
-    Token.At: '#FF0000',
-    Token.Colon: '#FF0000',
-    Token.Pound: '#FF0000',
-    Token.Host: '#FF0000 bg:#aaaaff',
-    Token.Path: '#FF0000 underline',
-})
-
-animal_completer = WordCompleter([
-
-    'use encode_sha3_256',
-    'use encode_sha256',
-    'use encode_blake2b',
-    'use encode_sha384',
-    'use encode_md5',
-    'use encode_sha3_512',
-    'use encode_sha512',
-    'use encode_sha1',
-    'use encode_sha3_224',
-    'use encode_blake2s',
-    'use encode_sha3_384',
-    'use encode_sha224',
-    'use encode64',
-    'use encode32',
-    'use encode16',
-    'use decode64',
-    'use decode16 ',
-    'use decode32',
-    'use ssh',
-    'use ftp',
-    'use gera_wordlist',
-    'use reverse_tcp',
-    'use baixar',
-    'use gera_payload',
-    'comandos'
-], meta_dict={
-    'use encode_sha3_256': "encode_sha3_256",
-    'use encode_sha256': "encode_sha3_256",
-    'use encode_blake2b': "encode_sha3_256",
-    'use encode_sha384': "encode_sha3_256",
-    'use encode_md5': "encode_sha3_256",
-    'use encode_sha3_512': "encode_sha3_256",
-    'use encode_sha512': "encode_sha3_256",
-    'use encode_sha1': "encode_sha3_256",
-    'use encode_sha3_224': "encode_sha3_256",
-    'use encode_blake2s': "encode_sha3_256",
-    'use encode_sha3_384': "encode_sha3_256",
-    'use encode_sha224': "encode_sha3_256",
-    'use encode64': "encode texto para base64",
-
-    'use encode32': "encode texto para base32",
-
-    'use encode16': "encode texto para base16",
-
-    'use decode64': "decode base64 para texto",
-
-    'use decode16': "decode base16 para texto",
-
-    'use decode32': "decode base32 para texto",
-
-    'use baixar': "baixa arquivos",
-
-    'use ssh': "inicia sessao com ssh",
-
-    'use ftp': "inicia sessao com ftp",
-
-    'use gera_wordlist': "gera wordlist",
-
-    'use reverse_tcp': "inicia reverse_shell",
-
-    'use gera_payload': "gera payload",
-    "comandos": "lista todos os comandos do ctf_toolkit"
-}, ignore_case=True)
+class ctf_promt(cmd.Cmd):
+    """ctf_promt"""
+    comandos = []
 
 
-
-
+'''
 def menu():
     while True:
         menu = prompt('ctf@toolkit=>: ', completer=animal_completer,
@@ -238,3 +134,4 @@ def menu():
 
         except KeyboardInterrupt as e:
             print(amarelo + "digite help")
+            '''

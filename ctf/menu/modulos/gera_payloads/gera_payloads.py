@@ -2,11 +2,10 @@ import base64
 import errno
 import os
 
-
 def payloads():
     def custon_payload():
         try:
-            os.makedirs("payloads/custon")
+            os.makedirs("/files/payloads/custon")
             print("[criando pasta Payloads][OK]")
 
         except OSError as exc:

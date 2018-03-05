@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00906fb5-00ed-474f-8315-b9db0fe48caa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/menu/modulos/hash/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/menu/modulos/hash/hashs.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int_up/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int_up/str_int_up.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ctf/menu/banner_menu/banners.py" afterPath="$PROJECT_DIR$/ctf/menu/banner_menu/banners.py" />
       <change beforePath="$PROJECT_DIR$/ctf/menu/menu.py" afterPath="$PROJECT_DIR$/ctf/menu/menu.py" />
+      <change beforePath="$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode64.py" afterPath="$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode64.py" />
+      <change beforePath="$PROJECT_DIR$/ctf/menu/modulos/brute_force/__init__.py" afterPath="$PROJECT_DIR$/ctf/menu/modulos/base/str_int_up_especial/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py" afterPath="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py" />
+      <change beforePath="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/gera_wordlist.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/ctf/menu/test.py" afterPath="$PROJECT_DIR$/ctf/menu/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,24 +21,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/setup/setup.py">
+      <file leaf-file-name="int.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/int/int.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-              <folding>
-                <element signature="e#543#7943#0" expanded="false" />
-                <element signature="e#7967#10071#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/connect/connect.py">
+      <file leaf-file-name="str_int.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int/str_int.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="str_int_especial.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int_especial/str_int_especial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,43 +54,11 @@
       <file leaf-file-name="menu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="221" selection-end-column="8" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
               <folding>
-                <element signature="e#220#253#0" expanded="true" />
+                <element signature="e#408#428#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ctf_toolkit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/ctf_toolkit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#7#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="banners.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ctf/menu/banner_menu/banners.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="decode16.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/decode/decode16/decode16.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -90,43 +66,50 @@
       <file leaf-file-name="baixar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/donwloads/baixar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding>
-                <marker date="1519521209454" expanded="true" signature="0:11" ph="import ..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hashs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/hash/hashs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="e#81#207#0" expanded="false" />
-                <element signature="e#226#348#0" expanded="false" />
-                <element signature="e#368#492#0" expanded="false" />
-                <element signature="e#511#633#0" expanded="false" />
-                <element signature="e#649#765#0" expanded="false" />
-                <element signature="e#786#912#0" expanded="false" />
-                <element signature="e#931#1053#0" expanded="false" />
-                <element signature="e#1070#1188#0" expanded="false" />
-                <element signature="e#1209#1335#0" expanded="false" />
-                <element signature="e#1355#1479#0" expanded="false" />
-                <element signature="e#1500#1626#0" expanded="false" />
-                <element signature="e#1645#1767#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ctf/menu/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="305">
+              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="e#30#213#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="str_especial.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_especial/str_especial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="str_int_up.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int_up/str_int_up.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,6 +131,10 @@
       <find>python()</find>
       <find>def</find>
       <find>get_prompt_tokens</find>
+      <find>gera</find>
+      <find>md5</find>
+      <find>encode_md5</find>
+      <find>hash</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,26 +151,53 @@
         <option value="$PROJECT_DIR$/ctf/menu/modulos/database/dbs.py" />
         <option value="$PROJECT_DIR$/ctf/menu/modulos/os/reverse_shell/servidor_reverse.py" />
         <option value="$PROJECT_DIR$/ctf/menu/modulos/os/reverse_shell/servidor_tcp.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode64.py" />
         <option value="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/python_Base64.py" />
         <option value="$PROJECT_DIR$/ctf/menu/documentacao/info.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py" />
         <option value="$PROJECT_DIR$/ctf/menu/modulos/donwloads/baixar.py" />
         <option value="$PROJECT_DIR$/ctf/menu/modulos/base/decode/decode16/decode16.py" />
         <option value="$PROJECT_DIR$/ctf/setup/setup.py" />
         <option value="$PROJECT_DIR$/ctf/menu/modulos/connect/connect.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/test.py" />
         <option value="$PROJECT_DIR$/ctf/menu/modulos/hash/hash.py" />
         <option value="$PROJECT_DIR$/ctf/menu/modulos/hash/hashs.py" />
-        <option value="$PROJECT_DIR$/ctf/menu/menu.py" />
         <option value="$PROJECT_DIR$/ctf/menu/banner_menu/banners.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode64.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/brute_force/wordlist" />
+        <option value="$PROJECT_DIR$/ctf/dsa.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/brute_force/test.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/brute_force/gera_wordlist.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/int/int.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/int_especial/int_especial.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str/str.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str_especial/str_especial.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str_int/str_int.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str_int_especial/str_int_especial.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str_up/str_up.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str_up_especial/str_up_especial.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/gera_wordlist.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/especial/especial.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/int/int.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str/str.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/int_especial/int_especial.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int/str_int.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int_especial/str_int_especial.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_up/str_up.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/especial/especial.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int_up/str_int_up.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_especial/str_especial.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/__main__.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/gera_wordlist.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_up_especial/str_up_especial.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/menu.py" />
+        <option value="$PROJECT_DIR$/ctf/menu/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="31" />
-    <option name="width" value="1366" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="414" />
+    <option name="y" value="90" />
+    <option name="width" value="1033" />
+    <option name="height" value="441" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -206,9 +220,10 @@
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -222,7 +237,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ctf_toolkit2" type="cbb8eebc:String" user="ctf_toolkit2" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ctf_toolkit2" type="cbb8eebc:String" user="ctf_toolkit2" />
+              <item name="ctf" type="cbb8eebc:String" user="ctf" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ctf_toolkit2" type="cbb8eebc:String" user="ctf_toolkit2" />
+              <item name="ctf" type="cbb8eebc:String" user="ctf" />
+              <item name="menu" type="cbb8eebc:String" user="menu" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ctf_toolkit2" type="cbb8eebc:String" user="ctf_toolkit2" />
+              <item name="ctf" type="cbb8eebc:String" user="ctf" />
+              <item name="menu" type="cbb8eebc:String" user="menu" />
+              <item name="modulos" type="cbb8eebc:String" user="modulos" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ctf_toolkit2" type="cbb8eebc:String" user="ctf_toolkit2" />
+              <item name="ctf" type="cbb8eebc:String" user="ctf" />
+              <item name="menu" type="cbb8eebc:String" user="menu" />
+              <item name="modulos" type="cbb8eebc:String" user="modulos" />
+              <item name="donwloads" type="cbb8eebc:String" user="donwloads" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,22 +293,15 @@
               <item name="ctf" type="462c0819:PsiDirectoryNode" />
               <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ctf_toolkit2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ctf_toolkit2" type="462c0819:PsiDirectoryNode" />
-              <item name="ctf" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="banner_menu" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ctf/files" />
       <recent name="$PROJECT_DIR$/ctf/menu/modulos" />
     </key>
   </component>
@@ -272,91 +317,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hashs">
-    <configuration name="connect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="gera_wordlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu/modulos/connect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ctf-pl" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/modulos/connect/connect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/gera_wordlist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="gera_payloads" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="str" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ctf-pl" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str/str.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="hashs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="str_especial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu/modulos/hash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_especial" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ctf-pl" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/modulos/hash/hashs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_especial/str_especial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="hex_encode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="str_int_especial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu/modulos/hex/encode_hex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int_especial" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ctf-pl" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/modulos/hex/encode_hex/hex_encode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int_especial/str_int_especial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.hex_encode" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gera_payloads" />
-      <item index="2" class="java.lang.String" itemvalue="Python.connect" />
-      <item index="3" class="java.lang.String" itemvalue="Python.hashs" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctf/menu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ctf-pl" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctf/menu/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.str" />
+      <item index="1" class="java.lang.String" itemvalue="Python.str_especial" />
+      <item index="2" class="java.lang.String" itemvalue="Python.str_int_especial" />
+      <item index="3" class="java.lang.String" itemvalue="Python.gera_wordlist" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.hashs" />
-        <item index="1" class="java.lang.String" itemvalue="Python.connect" />
-        <item index="2" class="java.lang.String" itemvalue="Python.gera_payloads" />
-        <item index="3" class="java.lang.String" itemvalue="Python.hex_encode" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.gera_wordlist" />
+        <item index="2" class="java.lang.String" itemvalue="Python.str_int_especial" />
+        <item index="3" class="java.lang.String" itemvalue="Python.str_especial" />
+        <item index="4" class="java.lang.String" itemvalue="Python.str" />
       </list>
     </recent_temporary>
   </component>
@@ -458,21 +523,28 @@
       <option name="project" value="LOCAL" />
       <updated>1519521220657</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="dark">
+      <created>1519595885206</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1519595885206</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1366" height="688" extended-state="0" />
+    <frame x="414" y="90" width="1366" height="691" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27010623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30454546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32864675" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24733096" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -482,29 +554,29 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5030349" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32864675" sideWeight="0.4969651" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2511381" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40035588" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -521,204 +593,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="107" column="31" lean-forward="false" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
-          <folding>
-            <element signature="e#220#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/brute_force/gera_wordlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/documentacao/info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="75" lean-forward="false" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/d" />
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/python-pentest-tools/1-r_0.png" />
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/python-pentest-tools/41.png" />
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/python-pentest-tools/50-Dollar-Unlit.png" />
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/python-pentest-tools/9781787125933.png" />
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/python-pentest-tools/B08085.png" />
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/python-pentest-tools/dsa" />
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/python-pentest-tools/d" />
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/python-pentest-tools/SU-CAR-Icon-Mapt-Lit.png" />
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/python-pentest-tools/packtpub.txt" />
-    <entry file="file://$PROJECT_DIR$/ctf/referencias/python-pentest-tools/README.md" />
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/hex/decode_hex/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/hex/decode_hex/hex_decode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/hex/encode_hex/hex_encode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/banner_menu/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/reverse_shell/chama_serv_reverse.py" />
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/chama_ftp.py" />
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/reverse_shell/servidor_reverse.py" />
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/brute_force/gera_wordlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/database/dbs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/servicos/ftp/ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="12" lean-forward="false" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/payloads/python_Base64.py" />
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/decode/decode64/decode64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/documentacao/info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="75" lean-forward="false" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/os/reverse_shell/servidor_tcp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/darckode">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/dsa" />
-    <entry file="file://$PROJECT_DIR$/ctf/ddsa.py" />
     <entry file="file://$PROJECT_DIR$/ctf/2.py" />
     <entry file="file://$PROJECT_DIR$/ctf/import socket, subprocess, os.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)" />
-    <entry file="file://$PROJECT_DIR$/ctf/dsa.py" />
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/python_Base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/darkcode">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/payloads/custon/dsadsa.dark">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/python_Base64.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/darkcode" />
+    <entry file="file://$PROJECT_DIR$/ctf/files/payloads/custon/dsadsa.dark" />
     <entry file="file://$PROJECT_DIR$/ctf/setup/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#543#7943#0" expanded="false" />
-            <element signature="e#7967#10071#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,28 +614,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/hash/hashs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#207#0" expanded="false" />
-            <element signature="e#226#348#0" expanded="false" />
-            <element signature="e#368#492#0" expanded="false" />
-            <element signature="e#511#633#0" expanded="false" />
-            <element signature="e#649#765#0" expanded="false" />
-            <element signature="e#786#912#0" expanded="false" />
-            <element signature="e#931#1053#0" expanded="false" />
-            <element signature="e#1070#1188#0" expanded="false" />
-            <element signature="e#1209#1335#0" expanded="false" />
-            <element signature="e#1355#1479#0" expanded="false" />
-            <element signature="e#1500#1626#0" expanded="false" />
-            <element signature="e#1645#1767#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -755,27 +628,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/donwloads/baixar.py">
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/brute_force/wordlist" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/brute_force/darkcode.txt" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/brute_force/ddd" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/brute_force/ddddddddd" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/brute_force/dsa" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/brute_force/darkcode" />
+    <entry file="file://$PROJECT_DIR$/ctf/darkcode" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/banner_menu/banners.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <marker date="1519521209454" expanded="true" signature="0:11" ph="import ..." />
-          </folding>
+        <state relative-caret-position="-9">
+          <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
+    <entry file="file://$PROJECT_DIR$/ctf/files/wordlist/int/dsa" />
+    <entry file="file://$PROJECT_DIR$/ctf/files/wordlist/int/darkcode" />
+    <entry file="file://$PROJECT_DIR$/ctf/dsa.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/test.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/base/encode/encode64.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="221" selection-end-column="8" />
-          <folding>
-            <element signature="e#220#253#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -783,17 +661,130 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/gera_payloads/gera_payloads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/int/int.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/int_especial/int_especial.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str_int_especial/str_int_especial.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str_up/str_up.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str_up_especial/str_up_especial.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str_especial/str_especial.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str_int/str_int.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/gera_wordlist.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str/str.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/especial/especial.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str/str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/int_especial/int_especial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/especial/especial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_up/str_up.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int_up/str_int_up.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/__main__.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/gera_wordlist.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_up_especial/str_up_especial.py" />
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/int/int.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int/str_int.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_especial/str_especial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/word_list_generate/str_int_especial/str_int_especial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/modulos/donwloads/baixar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
           <folding>
-            <element signature="e#7#55#0" expanded="true" />
+            <element signature="e#408#428#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ctf/menu/banner_menu/banners.py">
+    <entry file="file://$PROJECT_DIR$/ctf/menu/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="305">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#30#213#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
