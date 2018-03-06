@@ -1,39 +1,45 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# import libs_python
+#import libs_python
+import sys
 import cmd
 
-from .modulos.base.decode.decode16.decode16 import decode16
-from .modulos.base.decode.decode32.decode32 import decode32
-# decode(base)
-from .modulos.base.decode.decode64.decode64 import decode64
-# encodes(base)
+#encodes(base)
 from .modulos.base.encode.encode16 import encode16
 from .modulos.base.encode.encode32 import encode32
 from .modulos.base.encode.encode64 import encode64
-# database
-# connect
-# hex
-# scanner
-# kernel_exploit
-# web
-# donwload
+
+#decode(base)
+from .modulos.base.decode.decode64.decode64 import decode64
+from .modulos.base.decode.decode16.decode16 import decode16
+from .modulos.base.decode.decode32.decode32 import decode32
+
+#database
+#connect
+#hex
+#scanner
+#kernel_exploit
+#web
+#donwload
 from .modulos.donwloads.baixar import baixarU
-# gera_payload
+
+#gera_payload
 from .modulos.gera_payloads.gera_payloads import payloads
-from .modulos.hash.hashs import blake2b
-from .modulos.hash.hashs import md5
-from .modulos.hash.hashs import sha1
-from .modulos.hash.hashs import sha224
-from .modulos.hash.hashs import sha256
-from .modulos.hash.hashs import sha384
-from .modulos.hash.hashs import sha3_224
-# encode(hash)
+
+#encode(hash)
 from .modulos.hash.hashs import sha3_256
+from .modulos.hash.hashs import sha512
+from .modulos.hash.hashs import sha256
+from .modulos.hash.hashs import sha224
+from .modulos.hash.hashs import sha3_224
+from .modulos.hash.hashs import sha1
 from .modulos.hash.hashs import sha3_384
 from .modulos.hash.hashs import sha3_512
-from .modulos.hash.hashs import sha512
-# wordlist_gene
+from .modulos.hash.hashs import sha384
+from .modulos.hash.hashs import blake2s
+from .modulos.hash.hashs import blake2b
+from .modulos.hash.hashs import md5
+#wordlist_gene
 from .modulos.word_list_generate.especial.especial import especial
 from .modulos.word_list_generate.int.int import _int
 from .modulos.word_list_generate.int_especial.int_especial import int_especial
@@ -44,6 +50,8 @@ from .modulos.word_list_generate.str_int_especial.str_int_especial import str_in
 from .modulos.word_list_generate.str_int_up.str_int_up import str_int_up
 from .modulos.word_list_generate.str_up.str_up import str_up
 from .modulos.word_list_generate.str_up_especial.str_up_especial import str_up_especial
+
+
 
 
 class cores:
@@ -71,12 +79,12 @@ while True:
 
                 """
 
-                prompt = cores.azul + 'ctf@toolkit=>: ' + cores.vermelho
-                intro = cores.amarelo + """bem vindo ao custon_pront_ctf_toolkit """
+                prompt = cores.azul+'ctf@toolkit=>: '+cores.vermelho
+                intro = cores.amarelo+"""bem vindo ao custon_pront_ctf_toolkit """
 
-                doc_header = cores.vermelho + '[+]lista de todos os comandos[+]'
+                doc_header = cores.vermelho+'[+]lista de todos os comandos[+]'
                 misc_header = 'misc_header'
-                undoc_header = cores.azul + '[+]comando de saida/info[+]'
+                undoc_header = cores.azul+'[+]comando de saida/info[+]'
 
                 ruler = '-'
 
@@ -119,9 +127,9 @@ while True:
                             'wordlist_str_up',
                             'wordlist_str_up_especial',
 
-                            ]
+                ]
 
-                def do_banner(self, line):
+                def do_banner(self,line):
                     print(cores.vermelho + """
 
 
@@ -163,43 +171,43 @@ while True:
                     if comando and comando in self.comandos:
                         if comando == "encode16":
                             encode16()
-                        elif comando == "encode32":
+                        elif comando =="encode32":
                             encode32()
-                        elif comando == "encode64":
+                        elif comando =="encode64":
                             encode64()
-                        elif comando == "decode16":
+                        elif comando =="decode16":
                             decode16()
-                        elif comando == "decode32":
+                        elif comando =="decode32":
                             decode32()
-                        elif comando == "decode64":
+                        elif comando =="decode64":
                             decode64()
-                        elif comando == "baixar":
+                        elif comando =="baixar":
                             baixarU()
-                        elif comando == "gera_payload":
+                        elif comando =="gera_payload":
                             payloads()
-                        elif comando == "encode_sha3_256":
+                        elif comando =="encode_sha3_256":
                             sha3_256()
-                        elif comando == "encode_sha256":
+                        elif comando =="encode_sha256":
                             sha256()
-                        elif comando == "encode_blake2b":
+                        elif comando =="encode_blake2b":
                             blake2b()
-                        elif comando == "encode_sha384":
+                        elif comando =="encode_sha384":
                             sha384()
-                        elif comando == "encode_md5":
+                        elif comando =="encode_md5":
                             md5()
-                        elif comando == "encode_sha3_512":
+                        elif comando =="encode_sha3_512":
                             sha3_512()
-                        elif comando == "encode_sha512":
+                        elif comando =="encode_sha512":
                             sha512()
-                        elif comando == "encode_sha1":
+                        elif comando =="encode_sha1":
                             sha1()
-                        elif comando == "encode_sha3_224":
+                        elif comando =="encode_sha3_224":
                             sha3_224()
-                        elif comando == "encode_sha3_384":
+                        elif comando =="encode_sha3_384":
                             sha3_384()
-                        elif comando == "encode_sha224":
+                        elif comando =="encode_sha224":
                             sha224()
-                        elif comando == "wordlist_especial":
+                        elif comando =="wordlist_especial":
                             especial()
                         elif comando == "wordlist_int":
                             _int()
@@ -217,7 +225,7 @@ while True:
                             str_up()
                         elif comando == "wordlist_str_up_especial":
                             str_up_especial()
-                        elif comando == "clear":
+                        elif comando =="clear":
                             from os import system as sys
                             sys("clear")
 
@@ -240,7 +248,7 @@ while True:
                     return completions
 
                 def help_use(self):
-                    print('\n'.join([cores.amarelo + "[+]use $modulo" + cores.verde]))
+                    print('\n'.join([cores.amarelo+"[+]use $modulo"+cores.verde]))
                     comandos = ['clear',
                                 'use decode64',
                                 'use decode32',
@@ -272,14 +280,17 @@ while True:
                     for i in comandos:
                         print(i)
 
-                def do_sair(self, line):
+
+                def do_sair(self,line):
                     print("[+]obrigado por usar o ctf_toolkit")
                     exit(1)
                     return True
+
+
 
 
             ctf_promt().cmdloop()
         except EOFError:
             print("[+]digite sair")
     except KeyboardInterrupt:
-        print("[+]digite sair...... ")
+        print("[+]digite sair......")

@@ -4,8 +4,8 @@
     <list default="true" id="00906fb5-00ed-474f-8315-b9db0fe48caa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/ctf/menu/menu.py" afterPath="$PROJECT_DIR$/ctf/menu/menu.py" />
-      <change beforePath="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/int_especial/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/int_especial/int_especial.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ctf/menu/modulos/word_list_gene/str/str.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,16 +39,10 @@
       <file leaf-file-name="menu.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="284" column="36" lean-forward="false" selection-start-line="284" selection-start-column="36" selection-end-line="284" selection-end-column="36" />
+            <state relative-caret-position="136">
+              <caret line="225" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="295" selection-end-column="37" />
               <folding>
-                <element signature="e#67#77#0" expanded="true" />
-                <element signature="e#2121#2724#1" expanded="false" />
-                <element signature="e#3177#3254#0" expanded="false" />
-                <element signature="e#4902#7773#0" expanded="false" />
-                <element signature="e#11312#11478#0" expanded="false" />
-                <element signature="e#11575#13093#0" expanded="false" />
-                <element signature="e#11673#13021#0" expanded="false" />
+                <element signature="e#66#76#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -603,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520298818498</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="menu atualizado , agora so falta criar uma vertente do wget para baixar arquivos">
+      <created>1520298987047</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1520298987047</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -672,7 +673,6 @@
     <MESSAGE value="menu atualizado , agora so falta criar uma vertente do wget para baixar arquivos" />
     <option name="LAST_COMMIT_MESSAGE" value="menu atualizado , agora so falta criar uma vertente do wget para baixar arquivos" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -887,16 +887,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ctf/menu/menu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="284" column="36" lean-forward="false" selection-start-line="284" selection-start-column="36" selection-end-line="284" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="225" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="295" selection-end-column="37" />
           <folding>
-            <element signature="e#67#77#0" expanded="true" />
-            <element signature="e#2121#2724#1" expanded="false" />
-            <element signature="e#3177#3254#0" expanded="false" />
-            <element signature="e#4902#7773#0" expanded="false" />
-            <element signature="e#11312#11478#0" expanded="false" />
-            <element signature="e#11575#13093#0" expanded="false" />
-            <element signature="e#11673#13021#0" expanded="false" />
+            <element signature="e#66#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
