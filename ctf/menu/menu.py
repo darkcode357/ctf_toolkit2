@@ -33,9 +33,17 @@ from .modulos.hash.hashs import sha3_256
 from .modulos.hash.hashs import sha3_384
 from .modulos.hash.hashs import sha3_512
 from .modulos.hash.hashs import sha512
-
-
 # wordlist_gene
+from .modulos.word_list_generate.especial.especial import especial
+from .modulos.word_list_generate.int.int import _int
+from .modulos.word_list_generate.int_especial.int_especial import int_especial
+from .modulos.word_list_generate.str.str import _str
+from .modulos.word_list_generate.str_especial.str_especial import str_especial
+from .modulos.word_list_generate.str_int.str_int import str_especial
+from .modulos.word_list_generate.str_int_especial.str_int_especial import str_int_especial
+from .modulos.word_list_generate.str_int_up.str_int_up import str_int_up
+from .modulos.word_list_generate.str_up.str_up import str_up
+from .modulos.word_list_generate.str_up_especial.str_up_especial import str_up_especial
 
 
 class cores:
@@ -68,14 +76,13 @@ while True:
 
                 doc_header = cores.vermelho + '[+]lista de todos os comandos[+]'
                 misc_header = 'misc_header'
-                undoc_header = cores.azul + '[+]comando de saida[+]'
+                undoc_header = cores.azul + '[+]comando de saida/info[+]'
 
                 ruler = '-'
 
                 def do_prompt(self, line):
                     "Change the interactive prompt"
                     self.prompt = line + ': '
-
                 comandos = ['clear',
                             'decode64',
                             'decode32',
@@ -102,8 +109,55 @@ while True:
                             'encode_sha3_384',
                             'encode_sha224',
                             'sair',
+                            'wordlist_especial',
+                            'wordlist_int',
+                            'wordlist_int_especial',
+                            'wordlist_str',
+                            'wordlist_str_especial',
+                            'wordlist_str_int_especial',
+                            'wordlist_str_int_up',
+                            'wordlist_str_up',
+                            'wordlist_str_up_especial',
+
                             ]
 
+                def do_banner(self, line):
+                    print(cores.vermelho + """
+
+
+                                      | |__|__|__|__|__|__|__|__|__|_|                         
+                 __    __    __       |_|___|___|___|___|___|___|___||       __    __    __   
+                |__|  |__|  |__|      |___|___|___|___|___|___|___|__|      |__|  |__|  |__|   
+                |__|__|__|__|__|       \____________________________/       |__|__|__|__|__|   
+                |_|___|___|___||        |_|___|___|___|___|___|___||        |_|___|___|___||
+                |___|___|___|__|        |___|___|___|___|___|___|__|        |___|___|___|__|   
+                 \_|__|__|___|/          \________________________/          \_|__|__|__|_/    
+                  \__|____|__/            |___|___|___|___|___|__|            \__|__|__|_/     
+                   |||_|_|_||             |_|___|___|___|___|__|_|             |_|_|_|_||      
+                   ||_|_|||_|__    __    _| _  __ |_ __  _ __  _ |_    __    __||_|_|_|_|      
+                   |_|_|_|_||__|__|__|__|__|__|__|__|__|__|__|__|__|__|__|__|__|_|_|_|_||      
+                   ||_|||_|||___|___|___|___|___|___|___|___|___|___|___|___|__||_|_|_|_|      
+                   |_|_|_|_||_|___|___|___|___|___|___|___|___|___|___|___|___||_|_|_|_||      
+                   ||_|_|_|_|___|___|___|___|___|___|___|___|___|___|___|___|__||_|_|_|_|      
+                   |_|||_|_||_|___|___|___|___|___|___|___|___|___|___|___|___||_|_|_|_||      
+                   ||_|_|_|_|___|___|___|___|___|_/| | | \__|___|___|___|___|__||_|_|_|_|      
+                   |_|_|_|_||_|___|___|___|___|__/ | | | |\___|___|___|___|___||_|_|_|_||      
+                   ||_|_|_|||___|___|___|___|___|| | | | | |____|___|___|___|__||_|_|_|_|      
+                   |_|_|_|_||_|___|___|___|___|_|| | | | | |__|___|___|___|___||_|_|_|_||      
+                  /___|___|__\__|___|___|___|___|| | | | | |____|___|___|___|_/_|___|__|_\     
+                 |_|_|_|_|_|_||___|___|___|___|_|| | | | | |__|___|___|___|__|_|__|__|__|_|    
+                 ||_|_|_|_|_|_|_|___|___|___|___||_|_|_|_|_|____|___|___|____|___|__|__|__|    
+                %s
+                 ██████╗████████╗███████╗       ██████╗ █████╗ ███████╗████████╗██╗     ███████╗
+                ██╔════╝╚══██╔══╝██╔════╝      ██╔════╝██╔══██╗██╔════╝╚══██╔══╝██║     ██╔════╝
+                ██║        ██║   █████╗  █████╗██║     ███████║███████╗   ██║   ██║     █████╗  
+                ██║        ██║   ██╔══╝  ╚════╝██║     ██╔══██║╚════██║   ██║   ██║     ██╔══╝  
+                ╚██████╗   ██║   ██║           ╚██████╗██║  ██║███████║   ██║   ███████╗███████╗
+                 ╚═════╝   ╚═╝   ╚═╝            ╚═════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚══════╝
+                criado darkcode0x00
+                versao 0.4.4
+                data 5/3/18
+                    """ % cores.amarelo)
                 def do_use(self, comando):
                     "comandos"
                     if comando and comando in self.comandos:
@@ -145,6 +199,24 @@ while True:
                             sha3_384()
                         elif comando == "encode_sha224":
                             sha224()
+                        elif comando == "wordlist_especial":
+                            especial()
+                        elif comando == "wordlist_int":
+                            _int()
+                        elif comando == "wordlist_int_especial":
+                            int_especial()
+                        elif comando == "wordlist_str":
+                            _str()
+                        elif comando == "wordlist_str_especial":
+                            str_especial()
+                        elif comando == "wordlist_str_int_especial":
+                            str_int_especial()
+                        elif comando == "wordlist_str_int_up":
+                            str_int_up()
+                        elif comando == "wordlist_str_up":
+                            str_up()
+                        elif comando == "wordlist_str_up_especial":
+                            str_up_especial()
                         elif comando == "clear":
                             from os import system as sys
                             sys("clear")
@@ -157,7 +229,7 @@ while True:
                         saida = '[+]comando errado...'
 
                 def complete_use(self, text, line, begidx, endidx):
-                    # completa os comandos
+                    #completa os comandos
                     if not text:
                         completions = self.comandos[:]
                     else:
