@@ -6,7 +6,7 @@ import os
 def str_up_especial():
     try:
         os.makedirs("../../..files/wordlist/str_up_especial/")
-        os.chdir("../../../files/wordlist/str_up_especial/")
+        os.chdir("../../../ files/wordlist/str_up_especial/")
         print(os.getcwd())
         print("[criando pasta wordlist/str_up_especial][OK]")
     except OSError as exc:
