@@ -282,4 +282,4 @@ while True:
         except EOFError:
             print("[+]digite sair")
     except KeyboardInterrupt:
-        print("[+]digite sair......")
+        print("[+]digite sair...... ")
